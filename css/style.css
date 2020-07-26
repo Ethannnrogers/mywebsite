@@ -8,6 +8,16 @@
     color: #ffbf00!important;
 } */
 
+html {
+    scroll-behavior: smooth;
+  }
+
+nav {
+    height: 40px!important;
+}
+
+
+
 .header-landing {
     font-size: 5em;
     font-weight: bold;
@@ -104,8 +114,7 @@
 }
 
 .slide:hover h2{
-    color: #ffbf00!important;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    color: #ffd800!important;
     transition: .2s;
 }
 
@@ -140,7 +149,8 @@
 }
 
 #body {
-    /* height: 1000px; */
+   width:100%;
+   max-width: 100vw;
 }
 
 #blog-header {
@@ -206,12 +216,12 @@ nav {
     height: 25px;
     width: 25px;
     display: inline-block;
-    background: #ffbf00;
+    background: #ffd800;
     text-align: center;
     line-height: 26px;
     margin-right: 10px;
     color: #fff;
-    font-size: 1.5em!important
+    font-size: 1em!important
 }
 
 .sidebar-contact-info p {
@@ -270,7 +280,7 @@ nav {
 }
 
 .sidebar-sticky {
-    position: sticky;
+    position: sticky!important;
     top: 1%;
     width: 100%;
 }
@@ -875,8 +885,6 @@ h5 {
     padding: 50px 0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
     -webkit-transition-property: -webkit-transform;
@@ -1259,7 +1267,6 @@ b i:last-child {
 
 .portfolio_item {
     position: relative;
-    overflow: hidden;
     display: block;
 }
 
