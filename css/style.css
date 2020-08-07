@@ -1742,3 +1742,28 @@ textarea:focus {
         line-height: 30px;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 50px!important;
+    }
+    .home-profile-landing{
+        margin-left: 14%;
+    }
+    h2, h3, p{
+        text-align: center;
+    }
+    #span-a {
+        text-align: center!important;
+        margin-left: 40%;
+    }
+    .header-landing-2 {
+        font-size: 50px!important;
+    }
+    #call-to-action-landing h3 {
+        font-size: 30px;
+    }
+    #blog-form-btn-2 {
+        font-size: 14px!important;
+    }
+}
