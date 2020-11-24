@@ -72,10 +72,10 @@ nav {
 }
 
 .home-profile-landing {
-    height: 350px;
-    width: auto;
+    height: auto;
+    width: 80%;
     object-fit: cover;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 #arrow-container {
