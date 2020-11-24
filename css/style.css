@@ -19,11 +19,11 @@ nav {
 
 
 .header-landing {
-    font-size: 5em;
+    font-size: 6em;
     font-weight: bold;
     text-transform: unset;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 20%;
+    padding-right: 20%
 }
 
 .cta-bttns {
@@ -37,7 +37,7 @@ nav {
 
 #span-a {
     color: #9a9a9a!important;
-    font-size: 1em;
+    font-size: .7em;
     text-decoration: underline;
 }
 
